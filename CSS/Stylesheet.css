@@ -1,0 +1,90 @@
+.homesection {
+    background-image: url("../Afbeeldingen/Home_Achtergrond.png");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    overflow: hidden;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #B20606;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Courier New";
+}
+
+.navbar .current{
+    font-weight: bold;
+}
+
+
+    * {
+    box-sizing: border-box;
+  }
+
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .side {
+      flex: 20%;
+      padding: 20px;
+      text-align: center;
+  }
+
+
+  .main {
+      flex: 80%;
+      background-color: white;
+      padding: 20px;
+      text-align: left;
+  }
+
+
+.tekstblok {
+    flex: 70%;
+    margin-top: 20px;
+    margin-right:350px;
+    text-align: left;
+    font-family: "Courier New";
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1 {
+    flex: 70%;
+    margin-right:350px;
+    text-align: left;
+    font-family: "Courier New";
+    font-style: normal;
+    font-size: 20px;
+}
+
+h2 {
+    flex: 70%;
+    margin-right:350px;
+    margin-top:0px;
+    text-align: left;
+    font-family: "Courier New";
+    font-style: normal;
+    font-size: 16px;
+}
+
+.afbeelding {
+    margin-top:50px;
+    width: 60%;
+}
